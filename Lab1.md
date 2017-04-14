@@ -21,7 +21,7 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
---- | --- | ---
+Markdown | Less | Pretty
 0.5 | 1.3 | 3.5
 3.9 | 131 | 2.8
 0 | 2.2 | 4.6
