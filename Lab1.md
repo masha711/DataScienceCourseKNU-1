@@ -16,6 +16,11 @@ z<-replicate(100, c(TRUE))
 
 3. Створити наступну матрицю за допомогою matrix, та за допомогою cbind або rbind:
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 --- | --- | ---
 0.5 | 1.3 | 3.5
 3.9 | 131 | 2.8
