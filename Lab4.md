@@ -70,6 +70,11 @@ mean(subset(data, Month == 6)$Temp)
 ```
 9. Яке максимальне значення «Ozone» для травня («Month» дорівнює 5)?
 ```r
+# With NA
 max(subset(data, Month == 5)$Ozone)
 [1] NA
+# Without NA
+last_subset_ozone<-subset(data, Month == 5)$Ozone
+max(last_subset_ozone[!is.na(last_subset_ozone)])
+[1] 115
 ```
